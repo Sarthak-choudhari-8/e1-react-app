@@ -1,0 +1,46 @@
+.reg-container{
+ width:70%;
+ margin:auto;
+ margin-top:50px;
+ text-align:center;
+}
+
+.reg-heading{
+ margin-bottom:30px;
+}
+
+.reg-form{
+ display:grid;
+ grid-template-columns:repeat(2,1fr);
+ gap:20px;
+ background:white;
+ padding:30px;
+ border-radius:10px;
+ box-shadow:0px 2px 6px rgba(0,0,0,0.1);
+}
+
+.reg-form input,
+.reg-form select{
+ padding:10px;
+ border:1px solid #ccc;
+ border-radius:6px;
+}
+
+.reg-form button{
+ grid-column:span 2;
+ padding:12px;
+ background:#2196F3;
+ color:white;
+ border:none;
+ border-radius:6px;
+ cursor:pointer;
+}
+
+.reg-form button:hover{
+ background:#1976D2;
+}
+
+.default-pass{
+ margin-top:15px;
+ color:#555;
+}
