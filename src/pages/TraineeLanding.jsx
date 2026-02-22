@@ -1,5 +1,4 @@
 import {useEffect,useState} from "react";
-// import API from "../services/api";
 import {useNavigate} from "react-router-dom";
 import "../CSSFiles/trainee.css";
 
@@ -8,14 +7,10 @@ function TraineeLanding(){
  const nav = useNavigate();
  const [profile,setProfile]=useState({});
 
-//  useEffect(()=>{
-//    API.get("/auth/profile/")
-//    .then(res=>setProfile(res.data))
-//    .catch(()=>nav("/"));
-//  },[]);
+
 
  const handleLogout=async()=>{
-  //  await API.post("/auth/logout/");
+
    nav("/");
  }
  return(

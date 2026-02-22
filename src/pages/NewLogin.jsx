@@ -1,5 +1,4 @@
 import {useState} from "react";
-// import API from "../services/api";
 import {Navigate, useNavigate} from "react-router-dom";
 import "../CSSFiles/login.css";
 
@@ -20,9 +19,7 @@ function NewLogin(){
  const handleSubmit=async(e)=>{
   e.preventDefault();
 
-  // await API.post("/auth/login/",user);
-
-  // const res = await API.get("/auth/profile/");
+ //aPI calls 
 
   if(user.role==="Admin"){
     nav("/admin");

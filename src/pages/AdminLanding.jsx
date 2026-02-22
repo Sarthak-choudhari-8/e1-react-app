@@ -1,13 +1,12 @@
 import "../CSSFiles/admin.css";
 import {useEffect,useState} from "react";
-// import API from "../services/api";
 import {useNavigate} from "react-router-dom";
 
 function AdminLanding(){
 
 let nav = useNavigate();
  const handleLogout=async()=>{
-  //  await API.post("/auth/logout/");
+// api calls
    nav("/");
  }
 
