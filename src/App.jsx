@@ -1,13 +1,13 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from "./pages/login";
+// import Login from "./pages/Login";
 import AdminLanding from "./pages/AdminLanding";
 import TraineeLanding from "./pages/TraineeLanding";
-        import SingleRegistration from "./pages/SingleRegistration";
+import SingleRegistration from "./pages/SingleRegistration";
 import BulkRegistration from "./pages/BulkRegistration";
+import Login from "./pages/login";
 
 function App() {
   const [count, setCount] = useState(0)
