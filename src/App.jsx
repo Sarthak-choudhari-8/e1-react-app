@@ -7,7 +7,7 @@ import AdminLanding from "./pages/AdminLanding";
 import TraineeLanding from "./pages/TraineeLanding";
 import SingleRegistration from "./pages/SingleRegistration";
 import BulkRegistration from "./pages/BulkRegistration";
-import Login from "./pages/login";
+import login from "./pages/login";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +16,7 @@ function App() {
     <>
     <Router>
       <Routes>
-        <Route path="/" element={<Login/>}/>
+        <Route path="/" element={<login/>}/>
         <Route path="/admin" element={<AdminLanding/>}/>
         <Route path="/trainee" element={<TraineeLanding/>}/>  
 

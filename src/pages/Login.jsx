@@ -3,7 +3,7 @@ import {useState} from "react";
 import {Navigate, useNavigate} from "react-router-dom";
 import "../CSSFiles/login.css";
 
-function Login(){
+function login(){
 
  const nav = useNavigate();
 
@@ -72,4 +72,4 @@ function Login(){
  
 }
 
-export default Login;
+export default login;
